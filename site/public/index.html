@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto ETL Finanzas - Antonio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6; 
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .wrapper {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .subtitle { font-size: 1.2em; opacity: 0.9; }
+        .container { padding: 40px; }
+        h2 { color: #333; margin-bottom: 20px; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+        .links {
+            display: grid;
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .link-card {
+            padding: 25px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-left: 5px solid #667eea;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        .link-card:hover { 
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        .link-card h3 { color: #667eea; margin-bottom: 10px; font-size: 1.4em; }
+        .link-card p { color: #555; margin-bottom: 15px; }
+        .link-card a {
+            display: inline-block;
+            color: white;
+            background: #667eea;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .link-card a:hover { background: #764ba2; }
+        .tech-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .tech-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+        .tech-item strong { color: #667eea; }
+        footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>📊 Proyecto ETL: Finanzas</h1>
+            <p class="subtitle">Análisis de Ejecución Presupuestaria</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Big Data Aplicado - UT1</p>
+        </header>
+
+        <div class="container">
+            <h2>Bienvenido al Proyecto</h2>
+            <p>Este proyecto implementa un <strong>pipeline ETL completo</strong> que procesa datos financieros (gastos y presupuestos) para calcular el <strong>KPI de ejecución presupuestaria</strong> por área organizacional.</p>
+
+            <div class="links">
+                <div class="link-card">
+                    <h3>📈 Reporte de Ejecución Presupuestaria</h3>
+                    <p>Análisis completo con KPIs, tablas de ejecución por área y tendencias mensuales de gastos.</p>
+                    <a href="reporte.html">Ver Reporte Completo →</a>
+                </div>
+
+                <div class="link-card">
+                    <h3>💻 Repositorio GitHub</h3>
+                    <p>Código fuente completo del proyecto, documentación técnica y archivos de datos.</p>
+                    <a href="https://github.com/uxentio/BDA_Proyecto_UT1_RA1" target="_blank">Ver Código Fuente →</a>
+                </div>
+
+                <div class="link-card">
+                    <h3>📚 Documentación Técnica</h3>
+                    <p>Decisiones de diseño, arquitectura de 3 capas y lecciones aprendidas.</p>
+                    <a href="https://github.com/uxentio/BDA_Proyecto_UT1_RA1/tree/main/docs" target="_blank">Ver Documentación →</a>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 40px;">🏗️ Arquitectura del Proyecto</h2>
+            <p><strong>Pipeline ETL de 3 capas:</strong></p>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <strong>🔵 Bronce (Raw)</strong><br>
+                    Datos crudos con trazabilidad completa
+                </div>
+                <div class="tech-item">
+                    <strong>⚪ Plata (Clean)</strong><br>
+                    Datos validados y normalizados
+                </div>
+                <div class="tech-item">
+                    <strong>🟡 Oro (Gold)</strong><br>
+                    KPIs y métricas analíticas
+                </div>
+            </div>
+
+            <h2 style="margin-top: 40px;">🛠️ Tecnologías Utilizadas</h2>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <strong>Python 3.11+</strong><br>
+                    Lenguaje principal del pipeline
+                </div>
+                <div class="tech-item">
+                    <strong>Pandas & NumPy</strong><br>
+                    Procesamiento de datos
+                </div>
+                <div class="tech-item">
+                    <strong>Apache Parquet</strong><br>
+                    Almacenamiento columnar eficiente
+                </div>
+                <div class="tech-item">
+                    <strong>SQLite</strong><br>
+                    Base de datos analítica
+                </div>
+            </div>
+
+            <h2 style="margin-top: 40px;">📊 KPI Principal</h2>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 5px solid #667eea;">
+                <code style="font-size: 1.2em; color: #667eea; background: none;">
+                    KPI_Ejecución = (Gasto Acumulado / Presupuesto Anual) × 100
+                </code>
+                <p style="margin-top: 15px; color: #666;">
+                    Este KPI permite identificar áreas en riesgo de sobrepasar el presupuesto asignado y optimizar la gestión financiera.
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Autor:</strong> Antonio [Tu Apellido]</p>
+            <p><strong>Asignatura:</strong> Big Data Aplicado - UT1</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/uxentio/BDA_Proyecto_UT1_RA1" style="color: #667eea;">uxentio/BDA_Proyecto_UT1_RA1</a></p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Noviembre 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
+<!-- Actualizado: 2025-11-11 21:49:21 -->

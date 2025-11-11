@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Ejecución Presupuestaria</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.8; 
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .back-link:hover { background: #764ba2; }
+        h1 { 
+            color: #667eea; 
+            border-bottom: 3px solid #667eea; 
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        h2 { 
+            color: #333; 
+            margin-top: 40px; 
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        h3 { color: #555; margin-top: 30px; margin-bottom: 15px; }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #667eea;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #d63384;
+        }
+        strong { color: #667eea; }
+        hr { 
+            border: none; 
+            border-top: 2px solid #e0e0e0; 
+            margin: 40px 0; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Volver al Inicio</a>
+        <pre style="white-space: pre-wrap; background: white; border: none; padding: 0;"><h1>Reporte de Ejecucion Presupuestaria 2024<br><br><strong>Generado:</strong> 2025-11-11 19:13:03  <br><strong>Batch ID:</strong> `20251111_191303`  <br><strong>Periodo:</strong> Enero - Octubre 2024<br><br>---<br><br>#<h1>Resumen Ejecutivo<br><br>Este reporte analiza la ejecucion presupuestaria por area, comparando el <strong>gasto acumulado</strong> vs el <strong>presupuesto anual asignado</strong>.<br><br>##<h1>Hallazgos principales:<br>- Se procesaron <strong>479</strong> registros de gastos validos<br>- Se identificaron <strong>12</strong> registros con errores (enviados a cuarentena)<br>- Se analizaron <strong>5</strong> areas organizacionales<br><br>---<br><br>#<h1>KPI Principal: Ejecucion Presupuestaria<br><br>##<h1><strong>Definicion del KPI</strong><br><br>```<br>KPI_Ejecucion = (Gasto Acumulado / Presupuesto Anual) × 100<br>```<br><br><strong>Interpretacion:</strong><br>- <strong>&lt; 70%</strong>: Bajo consumo presupuestario<br>- <strong>70-89%</strong>: Ejecucion normal<br>- <strong>90-100%</strong>: En riesgo de sobrepasarse<br>- <strong>&gt; 100%</strong>: Sobre presupuesto (CRITICO)<br><br>---<br><br>#<h1>Tabla 1: Ejecucion por Area<br><br>| Area | Presupuesto Anual (EUR) | Gasto Acumulado (EUR) | KPI Ejecucion (%) | Restante (EUR) |<br>|------|------------------------:|----------------------:|------------------:|---------------:|<br>| Ventas | 250,078.45 | 982,880.56 | <strong>393.03%</strong> | -732,802.11 |<br>| Ti | 682,162.12 | 939,607.80 | <strong>137.74%</strong> | -257,445.68 |<br>| Rrhh | 503,124.06 | 479,328.76 | <strong>95.27%</strong> | 23,795.30 |<br>| Marketing | 729,449.82 | 563,695.44 | <strong>77.28%</strong> | 165,754.38 |<br>| Operaciones | 780,275.97 | 567,621.55 | <strong>72.75%</strong> | 212,654.42 |<br><br><br>---<br><br>#<h1>Tabla 2: Tendencia Mensual de Gastos (Top 5 Meses)<br><br>| Mes | Gasto Total (EUR) |<br>|-----|------------------:|<br>| 2024-08 | 514,103.18 |<br>| 2024-01 | 406,555.57 |<br>| 2024-04 | 384,559.53 |<br>| 2024-10 | 370,437.98 |<br>| 2024-03 | 346,916.19 |<br><br><br>---<br><br>#<h1>Contexto del Analisis<br><br>##<h1>Fuente de Datos<br>- <strong>Archivo de Gastos:</strong> `gastos.csv` (504 registros originales)<br>- <strong>Archivo de Presupuesto:</strong> `presupuesto.csv` (5 registros originales)<br><br>##<h1>Periodo Analizado<br>- <strong>Inicio:</strong> 2024-01-01<br>- <strong>Fin:</strong> 2024-10-26<br><br>##<h1>Ultima Actualizacion<br>- <strong>Fecha de procesamiento:</strong> 2025-11-11T19:13:03.495495<br>- <strong>Batch ID:</strong> `20251111_191303`<br><br>##<h1>Consideraciones Tecnicas<br><br>###<h1>Registros en Cuarentena<br>Se identificaron <strong>12</strong> registros con problemas:<br>- Campos obligatorios nulos<br>- Importes negativos o cero<br>- Fechas invalidas<br>- Areas no reconocidas<br><br>Estos registros se guardaron en `project/data/quarantine/` para revision manual.<br><br>###<h1>Manejo de Importes<br>- Todos los importes se almacenan como <strong>DECIMAL(18,2)</strong><br>- Los valores se redondean a 2 decimales<br>- <strong>No se incluye IVA</strong> en los calculos (gastos netos)<br><br>###<h1>Deduplicacion<br>- <strong>Clave natural:</strong> (fecha, area, partida)<br>- <strong>Politica:</strong> "Ultimo gana" (se conserva el registro con mayor `_ingest_ts`)<br>- <strong>Duplicados eliminados:</strong> 13<br><br>###<h1>Periodificacion<br>- Los gastos se contabilizan por <strong>fecha de transaccion</strong><br>- No se aplica criterio de devengo<br><br>---<br><br>#<h1>Conclusiones y Recomendaciones<br><br>##<h1>Areas en Riesgo<br>- <strong>Ventas</strong>: SOBRE PRESUPUESTO (393.03%) - Requiere accion inmediata<br>- <strong>Ti</strong>: SOBRE PRESUPUESTO (137.74%) - Requiere accion inmediata<br>- <strong>Rrhh</strong>: En riesgo (95.27%) - Monitorear de cerca<br><br><br>##<h1>Acciones Recomendadas<br><br>1. <strong>Revision Inmediata</strong><br>   - Analizar areas con ejecucion &gt; 100%<br>   - Evaluar necesidad de reasignacion presupuestaria<br><br>2. <strong>Monitoreo Continuo</strong><br>   - Establecer alertas para areas con ejecucion &gt; 90%<br>   - Revisar tendencias mensuales para anticipar desvios<br><br>3. <strong>Calidad de Datos</strong><br>   - Revisar registros en cuarentena mensualmente<br>   - Validar areas y partidas con usuarios finales<br><br>---<br><br>#<h1>Definiciones de KPIs<br><br>##<h1>KPI_Ejecucion<br>- <strong>Formula:</strong> `(Gasto Acumulado / Presupuesto Anual) × 100`<br>- <strong>Unidad:</strong> Porcentaje (%)<br>- <strong>Rango esperado:</strong> 0% - 100%<br>- <strong>Actualizacion:</strong> Por batch (ETL)<br><br>##<h1>Gasto Acumulado<br>- <strong>Definicion:</strong> Suma de todos los importes de gastos registrados para un area<br>- <strong>Unidad:</strong> Euros (EUR)<br>- <strong>Incluye:</strong> Gastos netos sin IVA<br><br>##<h1>Presupuesto Restante<br>- <strong>Formula:</strong> `Presupuesto Anual - Gasto Acumulado`<br>- <strong>Unidad:</strong> Euros (EUR)<br>- <strong>Interpretacion:</strong> Fondos disponibles hasta fin de año<br><br>---<br><br>#<h1>Informacion Tecnica<br><br>##<h1>Pipeline ETL<br>1. <strong>Ingesta (Bronce):</strong> Lectura de CSVs con trazabilidad completa<br>2. <strong>Limpieza (Plata):</strong> Validaciones, normalizacion y deduplicacion<br>3. <strong>Oro (Analytics):</strong> Calculo de KPIs y agregaciones<br>4. <strong>Reporte:</strong> Generacion automatica en Markdown<br><br>##<h1>Trazabilidad<br>- `_ingest_ts`: Timestamp de ingesta<br>- `_source_file`: Archivo origen<br>- `_batch_id`: Identificador del batch procesado<br>- `_event_id`: ID unico por registro (UUID)<br><br>##<h1>Almacenamiento<br>- <strong>Parquet:</strong> Datos persistentes con particionado temporal<br>- <strong>SQLite:</strong> Base de datos para consultas SQL (`finanzas.db`)<br>- <strong>Vista SQL:</strong> `v_ejecucion_detalle` con estado y calculos<br><br>---<br><br><strong>Fin del Reporte</strong>  <br>_Generado automaticamente por el pipeline ETL de Finanzas_<br></pre>
+    </div>
+</body>
+</html>
