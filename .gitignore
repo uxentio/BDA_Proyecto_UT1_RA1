@@ -1,14 +1,42 @@
+﻿# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+build/
 .venv/
 venv/
+ENV/
+env/
+*.egg-info/
+
+# Datos generados (excepto CSVs de ejemplo)
 project/data/raw/*.parquet
 project/data/clean/*.parquet
 project/data/gold/*.parquet
 project/data/gold/*.db
 project/data/quarantine/*.parquet
-project/output/reporte.md
-.vscode/
-.DS_Store
+
+# Node/Quartz
 site/node_modules/
+site/.quartz-cache/
+site/public/
+site/package-lock.json
+
+# Temporales
 *.log
+.DS_Store
+Thumbs.db
+estructura*.txt
+detalle.txt
+resumen.txt
+archivos_importantes.txt
+documento_completo.md
+
+# Mantener estructura de carpetas vacías
+!project/data/.gitkeep
+!project/data/raw/.gitkeep
+!project/data/clean/.gitkeep
+!project/data/gold/.gitkeep
+!project/data/quarantine/.gitkeep

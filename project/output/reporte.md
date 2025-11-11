@@ -1,18 +1,4 @@
----
-title: Proyecto ETL Finanzas - Análisis Presupuestario
-author: Antonio Ferrer Martínez
-date: 11 de Noviembre de 2024
----
-
-# PROYECTO ETL FINANZAS
-## Análisis de Ejecución Presupuestaria
-
-**Asignatura:** Big Data Aplicado - UT1  
-**Alumno:** Antonio Ferrer Martínez 
-**GitHub:** https://github.com/uxentio/BDA_Proyecto_UT1_RA1  
-**Fecha:** Noviembre 2024
-
----# Reporte de Ejecucion Presupuestaria 2024
+# Reporte de Ejecucion Presupuestaria 2024
 
 **Generado:** 2025-11-11 19:13:03  
 **Batch ID:** `20251111_191303`  
@@ -181,63 +167,3 @@ Estos registros se guardaron en `project/data/quarantine/` para revision manual.
 
 **Fin del Reporte**  
 _Generado automaticamente por el pipeline ETL de Finanzas_
-
----
-
-# DECISIONES T�CNICAS Y LECCIONES APRENDIDAS
-
-## 1. ARQUITECTURA
-- Implementada arquitectura de 3 capas (Bronce/Plata/Oro)
-- Separaci�n clara de responsabilidades por capa
-- Cada capa tiene un prop�sito espec�fico
-
-## 2. TRAZABILIDAD
-- batch_id �nico por ejecuci�n (timestamp)
-- event_id (UUID) �nico por registro
-- Permite auditor�a completa del origen de cada dato
-- Batch actual: 20251111_191303
-
-## 3. DEDUPLICACI�N
-- **Clave natural:** (fecha, area, partida)
-- **Pol�tica:** "�ltimo gana" basado en _ingest_ts
-- **Justificaci�n:** El registro m�s reciente es la correcci�n
-- **Resultado:** 13 duplicados eliminados
-
-## 4. CUARENTENA
-- 12 registros inv�lidos identificados y guardados
-- **Causas:** campos nulos, importes negativos
-- Se guardan para an�lisis, no se eliminan
-- Permite revisi�n manual posterior
-
-## 5. CALIDAD DE DATOS
-- **Validaciones:** nulos, tipos, rangos, dominios
-- **Normalizaci�n:** �reas (ej: "ventas" ? "Ventas")
-- **Importes:** DECIMAL(18,2) para precisi�n
-- **Tasa de �xito:** 95.0% (479/504 registros v�lidos)
-
-## 6. ALMACENAMIENTO
-- **Parquet:** Eficiente, comprimido, columnar
-- **SQLite:** Consultas SQL ad-hoc
-- **Vista anal�tica:** v_ejecucion_detalle con estados
-
-## 7. LECCIONES APRENDIDAS
-- Tipos de datos son cr�ticos (datetime en Parquet requiere conversi�n)
-- DECIMAL mejor que FLOAT para valores monetarios
-- Documentaci�n de decisiones es esencial para entrevistas
-- Separaci�n de capas simplifica debugging
-- Cuarentena > eliminaci�n (permite an�lisis posterior)
-
-## 8. SUPUESTOS DE NEGOCIO
-- Importes sin IVA (gastos netos)
-- Periodificaci�n por fecha de transacci�n
-- Presupuesto anual (no mensual)
-- A�o fiscal = a�o natural
-
----
-
-# INFORMACI�N DE ENTREGA
-
-**Repositorio:** https://github.com/uxentio/BDA_Proyecto_UT1_RA1  
-**Alumno:** Antonio Ferrer Martínez 
-**Fecha:** 11 de Noviembre de 2024
-
