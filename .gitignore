@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+project/data/raw/*.parquet
+project/data/clean/*.parquet
+project/data/gold/*.parquet
+project/data/gold/*.db
+project/data/quarantine/*.parquet
+project/output/reporte.md
+.vscode/
+.DS_Store
+site/node_modules/
+*.log

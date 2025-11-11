@@ -1,0 +1,18 @@
+﻿{
+  "name": "etl-finanzas-quartz",
+  "version": "1.0.0",
+  "description": "Documentacion web del proyecto ETL Finanzas",
+  "private": true,
+  "scripts": {
+    "docs": "npx quartz build --serve",
+    "build": "npx quartz build",
+    "preview": "npx quartz build --serve"
+  },
+  "keywords": ["quartz", "etl", "finanzas", "data-engineering"],
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  },
+  "dependencies": {
+    "quartz-obsidian": "^4.0.0"
+  }
+}

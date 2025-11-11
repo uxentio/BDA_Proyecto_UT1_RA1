@@ -1,0 +1,505 @@
+fecha,area,partida,importe
+2024-04-12,RRHH,Servicios Externos,2424.68
+2024-08-02,TI,Servicios Externos,2228.72
+2024-05-10,ventas,Publicidad,12503.4
+2024-10-20,Marketing,Publicidad,9213.63
+2024-09-09,RRHH,salarios,9216.61
+2024-06-18,RRHH,Software,14750.14
+2024-05-10,Operaciones,Software,6812.44
+2024-09-30,RRHH,salarios,12145.12
+2024-09-21,Marketing,Publicidad,3691.28
+2024-09-20,ti,Software,3955.82
+2024-01-02,ventas,Formación,8558.73
+2024-07-09,Marketing,PUBLICIDAD,5987.74
+2024-09-26,ti,Servicios Externos,7860.43
+2024-07-08,Operaciones,Material Oficina,8842.59
+2024-08-04,RRHH,salarios,2562.48
+2024-01-09,Ventas,Servicios Externos,-266.0847143906493
+2024-03-21,TI,Software,1203.27
+2024-08-18,Marketing,salarios,12765.57
+2024-09-24,Marketing,Salarios,4733.64
+2024-08-03,Operaciones,Software,4193.35
+2024-02-04,Ventas,Software,10727.35
+2024-09-13,Operaciones,PUBLICIDAD,3915.42
+2024-10-09,Ventas,PUBLICIDAD,1707.58
+2024-03-03,ti,Salarios,7677.7
+2024-08-09,Operaciones,Viajes,8143.63
+2024-01-29,RRHH,Viajes,2502.2
+2024-03-06,Marketing,salarios,6902.37
+2024-04-17,RRHH,Hardware,8136.2
+2024-08-18,ventas,Salarios,9750.58
+2024-04-30,RRHH,salarios,2553.37
+2024-05-16,ventas,Publicidad,4114.24
+2024-05-31,ti,Formación,8415.72
+2024-06-28,Ventas,Salarios,3778.45
+2024-10-21,Marketing,Software,4344.12
+2024-03-21,TI,Salarios,6224.45
+2024-08-11,Ventas,Salarios,2258.93
+2024-06-20,Marketing,Formación,10114.82
+2024-07-21,TI,Salarios,5579.97
+2024-04-07,ventas,Formación,1445.32
+2024-04-06,Ventas,Formación,12889.55
+2024-09-08,TI,Hardware,-539.1162475306471
+2024-05-26,RRHH,Viajes,10394.97
+2024-05-07,ti,Material Oficina,10167.78
+2024-05-30,ti,PUBLICIDAD,9933.76
+2024-04-21,Ventas,Hardware,3703.6
+2024-09-10,RRHH,Publicidad,9533.21
+2024-01-09,Ventas,Software,12715.25
+2024-05-31,ventas,Servicios Externos,12778.83
+2024-04-22,RRHH,Formación,8752.23
+2024-04-21,ventas,salarios,175.42
+2024-07-12,ventas,Software,3441.61
+2024-06-09,RRHH,Salarios,2764.46
+2024-05-14,TI,Salarios,8183.85
+2024-01-22,ventas,Formación,7352.46
+2024-09-20,TI,Material Oficina,9712.04
+2024-05-26,RRHH,Software,749.7
+2024-06-20,RRHH,Publicidad,11241.01
+2024-02-06,Operaciones,Salarios,8627.16
+2024-07-06,Ventas,Hardware,5837.96
+2024-06-09,TI,Material Oficina,14048.71
+2024-02-27,TI,Servicios Externos,3212.89
+2024-05-30,Marketing,PUBLICIDAD,11137.45
+2024-10-25,ventas,Viajes,12159.48
+2024-01-13,RRHH,PUBLICIDAD,-434.89502654622754
+2024-01-20,Ventas,Servicios Externos,11957.31
+2024-05-22,RRHH,Material Oficina,8716.37
+2024-02-20,Ventas,PUBLICIDAD,4369.46
+2024-02-27,ventas,Salarios,12356.75
+2024-02-23,TI,Publicidad,11572.9
+2024-04-17,Operaciones,Viajes,870.06
+2024-02-16,TI,Viajes,2077.91
+2024-05-03,Marketing,Software,4135.4
+2024-04-01,Marketing,Viajes,2846.57
+2024-10-05,ti,salarios,967.08
+2024-05-01,Ventas,Material Oficina,1498.71
+2024-03-29,Operaciones,Publicidad,7798.77
+2024-07-10,ti,Publicidad,6352.04
+2024-03-16,Marketing,Software,314.46
+2024-08-07,Operaciones,Salarios,14694.71
+2024-07-22,Marketing,PUBLICIDAD,7154.73
+2024-10-15,ventas,Publicidad,9276.17
+2024-04-09,Marketing,Hardware,9425.31
+2024-04-05,Ventas,Servicios Externos,2527.72
+2024-10-06,ti,Material Oficina,8828.06
+2024-05-31,RRHH,Material Oficina,2014.66
+2024-06-27,TI,Publicidad,12324.36
+2024-06-16,Marketing,Material Oficina,9311.98
+2024-08-02,Ventas,PUBLICIDAD,12688.64
+2024-03-30,ventas,Material Oficina,7490.96
+2024-04-23,Operaciones,Servicios Externos,12071.87
+2024-09-05,RRHH,PUBLICIDAD,8570.95
+2024-08-14,Ventas,Software,5643.07
+2024-04-05,ti,Publicidad,10229.69
+2024-10-05,Ventas,Software,13548.04
+2024-03-02,RRHH,salarios,13443.3
+2024-06-25,RRHH,salarios,5388.09
+2024-10-10,ventas,Hardware,9514.37
+2024-03-09,TI,salarios,3269.65
+2024-02-22,ti,salarios,13970.84
+2024-07-04,ti,PUBLICIDAD,13326.79
+2024-08-22,TI,Material Oficina,10351.65
+2024-09-09,ventas,Viajes,3416.39
+2024-10-09,Marketing,Material Oficina,1364.08
+2024-05-15,Operaciones,Salarios,3626.61
+2024-08-04,Operaciones,Hardware,10651.9
+2024-10-01,Operaciones,Formación,3805.99
+2024-01-19,ti,Software,6137.51
+2024-05-05,Marketing,Hardware,1851.14
+2024-01-01,TI,salarios,4357.11
+2024-04-26,ventas,PUBLICIDAD,-127.10905596312489
+2024-05-28,ventas,Publicidad,1199.57
+2024-08-14,TI,Hardware,2576.61
+2024-01-14,ti,Salarios,8806.28
+2024-05-23,ti,salarios,14384.67
+2024-09-28,ventas,Servicios Externos,4232.98
+2024-06-12,Marketing,Servicios Externos,8796.48
+2024-08-07,Operaciones,salarios,6853.29
+2024-05-24,Ventas,Salarios,9081.45
+2024-08-27,Operaciones,Software,14252.02
+2024-09-12,Operaciones,salarios,13997.65
+2024-08-29,TI,Publicidad,5709.3
+2024-03-05,Marketing,Salarios,11268.72
+2024-08-04,ventas,Salarios,7083.53
+2024-04-08,ti,Salarios,-932.1768456827839
+2024-07-15,ti,Publicidad,8375.93
+2024-02-22,Operaciones,PUBLICIDAD,3785.49
+2024-03-18,Ventas,Salarios,9132.0
+2024-10-14,Marketing,Servicios Externos,7522.66
+2024-04-27,TI,Material Oficina,8323.41
+2024-08-09,TI,salarios,7252.68
+2024-07-25,Operaciones,Publicidad,12095.17
+2024-04-12,ventas,Material Oficina,8889.77
+2024-10-12,ti,Software,5289.01
+2024-06-14,Ventas,Servicios Externos,4539.6
+2024-04-15,TI,Salarios,2291.39
+2024-07-02,Ventas,PUBLICIDAD,1086.92
+2024-03-09,Marketing,Formación,4998.4
+2024-08-22,TI,Software,6955.78
+2024-04-04,TI,Formación,2783.0
+2024-07-02,Ventas,Software,7777.02
+2024-06-08,Marketing,PUBLICIDAD,12344.68
+2024-04-01,Marketing,Formación,1897.47
+2024-08-20,RRHH,PUBLICIDAD,2018.35
+2024-08-05,Operaciones,salarios,7269.07
+2024-08-01,ti,Servicios Externos,13821.0
+2024-03-01,Ventas,PUBLICIDAD,1359.3
+2024-09-09,RRHH,Servicios Externos,9312.0
+2024-03-18,Marketing,PUBLICIDAD,3861.31
+2024-01-07,TI,Viajes,8028.49
+2024-09-30,Marketing,Formación,3712.81
+2024-04-28,Operaciones,PUBLICIDAD,12626.58
+2024-03-26,Marketing,salarios,8944.53
+2024-03-08,Marketing,Software,7245.77
+2024-08-15,ti,Formación,11207.05
+2024-08-23,TI,PUBLICIDAD,5509.93
+2024-10-08,Marketing,Servicios Externos,5022.19
+2024-10-15,Operaciones,Formación,5543.82
+2024-04-21,RRHH,Servicios Externos,1295.48
+2024-08-30,ti,Servicios Externos,14959.11
+2024-01-06,Marketing,Hardware,12996.06
+2024-05-13,ventas,Salarios,10871.15
+2024-03-02,Ventas,Material Oficina,8617.03
+2024-06-21,RRHH,Publicidad,4922.82
+2024-10-01,RRHH,Salarios,7994.62
+2024-01-01,Marketing,Formación,2400.0
+2024-09-15,Ventas,Formación,2102.78
+2024-05-17,RRHH,Material Oficina,12167.13
+2024-04-10,Ventas,Salarios,7150.18
+2024-02-07,ti,Software,13949.98
+2024-08-23,Marketing,Publicidad,14081.27
+2024-03-16,TI,Software,10851.79
+2024-02-29,Operaciones,Servicios Externos,11282.48
+2024-10-12,TI,Publicidad,3611.81
+2024-03-18,Marketing,Hardware,8865.77
+2024-10-22,ti,Servicios Externos,6993.93
+2024-01-23,ti,Salarios,13503.66
+2024-04-13,TI,Viajes,14103.5
+2024-06-27,Marketing,Hardware,9339.08
+2024-08-18,TI,Hardware,11310.81
+2024-10-15,ventas,Hardware,11460.63
+2024-05-02,Marketing,Salarios,8093.57
+2024-08-15,Operaciones,Servicios Externos,7584.1
+2024-05-15,Operaciones,Hardware,10828.54
+2024-04-04,TI,Software,10771.07
+2024-10-09,Operaciones,Hardware,13635.91
+2024-02-07,ventas,Servicios Externos,4390.15
+2024-08-05,Operaciones,Servicios Externos,9210.67
+2024-04-20,RRHH,Hardware,11872.26
+2024-10-19,ti,PUBLICIDAD,5679.09
+2024-02-20,Operaciones,Servicios Externos,13669.22
+2024-09-13,ventas,Publicidad,12599.58
+2024-06-30,ti,salarios,4740.52
+2024-05-28,ti,salarios,3163.14
+2024-04-26,Marketing,salarios,6276.12
+2024-03-30,TI,Formación,5269.6
+2024-01-17,TI,Software,8706.72
+2024-06-28,ventas,Publicidad,5499.67
+2024-03-03,TI,Formación,3268.94
+2024-02-18,ti,Salarios,2315.07
+2024-04-27,ventas,Servicios Externos,8971.24
+2024-05-20,ventas,Viajes,12016.75
+2024-02-01,ventas,Salarios,7133.8
+2024-01-19,Marketing,Salarios,6854.0
+2024-07-12,ventas,Salarios,8438.64
+2024-05-11,Ventas,Servicios Externos,14197.12
+2024-10-14,Marketing,PUBLICIDAD,7946.02
+2024-03-27,ti,Material Oficina,6178.97
+2024-09-03,TI,Servicios Externos,7632.07
+2024-02-23,Ventas,Publicidad,9825.92
+2024-09-20,Marketing,Software,10861.78
+2024-04-29,ventas,Hardware,2202.12
+2024-08-10,ti,Material Oficina,-923.0423222309787
+2024-05-30,Operaciones,Software,13159.02
+2024-10-11,RRHH,Material Oficina,12279.91
+2024-01-11,Marketing,Material Oficina,610.0
+2024-01-20,Operaciones,Publicidad,8325.5
+2024-08-13,Operaciones,Software,11477.73
+2024-10-06,Ventas,PUBLICIDAD,14781.97
+2024-08-02,Ventas,Material Oficina,4103.29
+2024-02-09,Marketing,salarios,2176.41
+2024-08-22,ventas,Hardware,13518.53
+2024-04-07,ti,Publicidad,-177.13107409555084
+2024-02-11,RRHH,salarios,8357.25
+2024-06-01,ventas,PUBLICIDAD,1688.02
+2024-01-27,Ventas,Formación,3835.89
+2024-08-24,Ventas,Publicidad,13724.74
+2024-07-08,Marketing,Material Oficina,11096.7
+2024-06-29,RRHH,Software,5900.5
+2024-10-22,TI,Hardware,4527.11
+2024-08-14,ventas,Material Oficina,14315.9
+2024-03-09,Ventas,PUBLICIDAD,4007.73
+2024-08-14,RRHH,Salarios,8992.96
+2024-07-19,Marketing,Material Oficina,1219.55
+2024-01-17,Ventas,salarios,9014.46
+2024-01-25,ti,Software,12011.3
+2024-06-20,TI,Formación,5478.51
+2024-02-13,TI,Salarios,14258.54
+2024-01-12,ventas,Servicios Externos,9620.35
+2024-03-21,ti,Publicidad,12753.02
+2024-01-25,Marketing,salarios,10428.31
+2024-01-26,ti,PUBLICIDAD,14990.37
+2024-10-08,Operaciones,Formación,605.8
+2024-04-26,ti,salarios,1817.7
+2024-08-02,Operaciones,Material Oficina,917.75
+2024-04-12,Ventas,Servicios Externos,1896.45
+2024-04-07,TI,Publicidad,6671.38
+2024-02-08,ti,Servicios Externos,11881.78
+2024-07-28,Ventas,PUBLICIDAD,6320.84
+2024-08-14,Marketing,Material Oficina,13133.05
+2024-05-20,Marketing,Software,241.33
+2024-01-29,ventas,Salarios,7250.15
+2024-07-03,RRHH,salarios,6324.73
+2024-03-05,ventas,Salarios,5383.87
+2024-06-06,Marketing,Hardware,8877.72
+2024-07-11,Operaciones,salarios,5935.29
+2024-05-19,TI,PUBLICIDAD,3958.84
+2024-07-16,ti,Servicios Externos,9051.9
+2024-03-02,Operaciones,Material Oficina,14868.41
+2024-02-28,RRHH,Formación,7739.06
+2024-04-16,Marketing,salarios,2877.93
+2024-09-15,ventas,Publicidad,14539.63
+2024-06-25,Ventas,Software,7922.97
+2024-06-26,Marketing,Salarios,12255.91
+2024-09-25,Operaciones,salarios,8743.28
+2024-04-07,TI,salarios,4167.09
+2024-01-29,Ventas,Software,12945.7
+2024-01-09,ti,Servicios Externos,11054.67
+2024-08-13,RRHH,Formación,10878.96
+2024-03-30,Marketing,Formación,1731.09
+2024-10-10,Operaciones,Salarios,13255.3
+2024-04-24,Marketing,Software,10202.44
+2024-08-24,Ventas,Formación,13035.6
+2024-04-01,Ventas,salarios,3656.48
+2024-06-29,Marketing,Hardware,11315.48
+2024-01-07,Operaciones,PUBLICIDAD,13198.17
+2024-06-08,TI,Publicidad,2495.32
+2024-09-14,ventas,Viajes,1353.06
+2024-06-03,Ventas,salarios,3971.07
+2024-07-06,Operaciones,Software,4321.81
+2024-03-14,Ventas,Material Oficina,9526.07
+2024-08-09,Operaciones,Formación,10349.5
+2024-08-29,RRHH,Salarios,10657.72
+2024-07-11,ventas,PUBLICIDAD,12800.98
+2024-09-26,ti,Hardware,8956.5
+2024-01-07,Operaciones,Salarios,7380.78
+2024-02-27,ti,PUBLICIDAD,7081.24
+2024-01-04,Ventas,Software,2537.99
+2024-10-11,Operaciones,Hardware,11615.06
+2024-03-24,ventas,Software,2350.76
+2024-04-01,Operaciones,Publicidad,12874.67
+2024-03-24,ventas,Software,14761.27
+2024-09-13,Marketing,Formación,3275.26
+2024-10-07,RRHH,Material Oficina,7150.83
+2024-03-12,RRHH,salarios,11671.29
+2024-03-19,TI,Material Oficina,9430.68
+2024-06-29,RRHH,PUBLICIDAD,11968.41
+2024-06-01,ventas,Viajes,10314.92
+2024-08-15,Ventas,Formación,2496.3
+2024-08-01,ventas,Publicidad,11983.63
+2024-03-04,Operaciones,Salarios,-934.797800984897
+2024-04-04,ventas,salarios,11719.78
+2024-09-23,ventas,Software,3706.47
+2024-02-15,ti,Formación,10566.73
+2024-07-20,Marketing,Salarios,1409.21
+2024-03-17,RRHH,PUBLICIDAD,2077.46
+2024-03-30,ventas,PUBLICIDAD,3082.24
+2024-05-02,ventas,salarios,874.37
+2024-02-10,Marketing,Servicios Externos,9417.04
+2024-03-24,ventas,Viajes,8339.72
+2024-01-22,Marketing,Software,2543.59
+2024-01-14,TI,Material Oficina,3781.84
+2024-01-25,Operaciones,Software,14640.39
+2024-06-21,Operaciones,Viajes,750.56
+2024-10-26,Marketing,Formación,3503.98
+2024-02-28,TI,PUBLICIDAD,3386.36
+2024-07-25,Ventas,Viajes,13037.26
+2024-06-07,Marketing,Servicios Externos,5254.43
+2024-01-20,RRHH,Servicios Externos,7758.54
+2024-04-14,RRHH,PUBLICIDAD,7351.37
+2024-03-06,ti,Material Oficina,9859.64
+2024-08-30,TI,PUBLICIDAD,3238.87
+2024-08-24,Marketing,Servicios Externos,3613.3
+2024-10-08,RRHH,Viajes,5655.44
+2024-01-02,ti,Publicidad,7434.94
+2024-04-20,ventas,Servicios Externos,9973.06
+2024-08-18,ventas,Salarios,14544.24
+2024-03-06,TI,Publicidad,-470.42862999345505
+2024-06-12,Operaciones,Viajes,3617.15
+2024-07-13,ventas,PUBLICIDAD,10073.92
+2024-09-13,Operaciones,Hardware,14233.89
+2024-03-04,ventas,Hardware,9122.52
+2024-06-23,Operaciones,Publicidad,10610.25
+2024-06-04,ti,Formación,1767.6
+2024-05-09,Ventas,Publicidad,686.22
+2024-04-28,TI,Formación,1419.48
+2024-06-09,Ventas,Software,2310.31
+2024-06-29,Marketing,Servicios Externos,358.96
+2024-08-04,Marketing,salarios,3887.95
+2024-06-26,ti,Formación,546.61
+2024-08-21,RRHH,Viajes,2906.4
+2024-09-20,Operaciones,Formación,2739.53
+2024-10-16,Ventas,Viajes,5677.02
+2024-04-23,Marketing,Salarios,12982.67
+2024-03-16,TI,Servicios Externos,13788.3
+2024-01-01,TI,Publicidad,8700.06
+2024-08-07,Marketing,Material Oficina,4839.86
+2024-06-09,Ventas,salarios,11757.54
+2024-03-17,ti,salarios,9792.62
+2024-04-11,ventas,Hardware,12136.9
+2024-03-22,Operaciones,salarios,13046.62
+2024-05-08,ventas,Formación,4992.88
+2024-03-05,RRHH,PUBLICIDAD,10462.46
+2024-04-02,Ventas,Salarios,5661.45
+2024-04-11,Marketing,Software,9674.38
+2024-09-21,TI,Publicidad,7834.32
+2024-04-26,Operaciones,PUBLICIDAD,2319.98
+2024-10-19,ti,Hardware,11496.76
+2024-01-21,ti,Viajes,1162.08
+2024-10-07,RRHH,Software,14023.1
+2024-10-01,Marketing,Hardware,4344.61
+2024-01-27,Operaciones,Software,1435.43
+2024-06-06,Marketing,Material Oficina,6261.88
+2024-09-19,ti,PUBLICIDAD,2850.32
+2024-08-28,Marketing,PUBLICIDAD,6425.46
+2024-09-19,ventas,Salarios,7944.84
+2024-02-16,TI,Viajes,7776.11
+2024-08-07,Ventas,PUBLICIDAD,9203.62
+2024-04-30,Operaciones,PUBLICIDAD,5365.98
+2024-06-02,TI,Publicidad,11006.18
+2024-04-09,RRHH,Viajes,1523.48
+2024-06-12,Marketing,Salarios,2379.46
+2024-02-18,TI,Material Oficina,8076.84
+2024-05-29,Operaciones,Software,8245.79
+2024-05-17,Ventas,salarios,14818.0
+2024-10-17,ti,Publicidad,6696.48
+2024-05-04,ti,salarios,14869.71
+2024-07-06,ventas,Software,5124.68
+2024-10-14,ti,Hardware,13423.44
+2024-03-13,Ventas,Formación,1134.42
+2024-02-18,RRHH,Material Oficina,1141.98
+2024-06-08,Operaciones,Servicios Externos,9798.07
+2024-10-26,Operaciones,PUBLICIDAD,10075.36
+2024-08-02,RRHH,Material Oficina,14932.66
+2024-10-12,RRHH,Servicios Externos,1422.63
+2024-10-13,ti,salarios,6201.22
+2024-06-06,Ventas,Viajes,5278.82
+2024-05-15,RRHH,Software,3596.17
+2024-04-24,ventas,Publicidad,11552.14
+2024-04-30,ventas,Publicidad,3930.0
+2024-08-18,Ventas,Publicidad,11752.22
+2024-08-13,Operaciones,Hardware,4020.38
+2024-03-06,Ventas,Publicidad,3661.92
+2024-06-28,ventas,Viajes,13112.72
+2024-09-18,TI,Formación,14883.15
+2024-04-10,RRHH,PUBLICIDAD,6017.96
+2024-06-14,Marketing,Software,8033.97
+2024-05-13,TI,Viajes,1305.7
+2024-06-11,Marketing,Material Oficina,14364.11
+2024-09-12,Marketing,salarios,7242.38
+2024-10-15,RRHH,Salarios,11495.67
+2024-01-25,Operaciones,Publicidad,7225.69
+2024-01-25,ti,Hardware,11673.18
+2024-05-07,RRHH,Hardware,1674.4
+2024-06-08,Operaciones,Material Oficina,2365.17
+2024-01-05,TI,Material Oficina,966.64
+2024-09-23,Marketing,Servicios Externos,6512.02
+2024-04-08,Operaciones,salarios,4054.27
+2024-09-19,RRHH,Salarios,14950.78
+2024-09-29,Operaciones,Viajes,2688.91
+2024-05-03,ventas,Viajes,11902.2
+2024-07-09,ventas,Software,6270.53
+2024-01-14,ti,Publicidad,14460.95
+2024-07-01,Marketing,Publicidad,-766.1681121294691
+2024-05-17,ti,PUBLICIDAD,9322.33
+2024-01-13,Operaciones,PUBLICIDAD,14640.52
+2024-06-21,RRHH,Salarios,8264.6
+2024-07-09,Operaciones,Hardware,2323.64
+2024-07-14,Marketing,Hardware,9810.49
+2024-08-14,Ventas,Hardware,5946.67
+2024-02-11,Operaciones,Salarios,11824.86
+2024-05-08,Marketing,Salarios,672.55
+2024-08-19,Operaciones,Viajes,13437.25
+2024-07-18,Ventas,Salarios,7824.28
+2024-03-09,RRHH,Salarios,812.68
+2024-07-18,Ventas,Viajes,1174.06
+2024-05-31,Ventas,Publicidad,5875.17
+2024-08-15,TI,Hardware,9954.42
+2024-01-28,TI,PUBLICIDAD,9938.51
+2024-01-08,Marketing,Formación,7768.4
+2024-08-10,Ventas,salarios,3164.74
+2024-02-18,RRHH,Hardware,9694.17
+2024-04-28,ventas,Material Oficina,1965.98
+2024-09-14,ventas,Publicidad,7859.45
+2024-10-14,RRHH,Material Oficina,5140.19
+2024-07-01,Ventas,salarios,8296.37
+2024-04-23,ventas,Hardware,1910.37
+2024-10-14,TI,Salarios,4360.01
+2024-02-01,ventas,Viajes,3950.63
+2024-01-18,Operaciones,Publicidad,11248.06
+2024-08-25,ti,Viajes,2743.69
+2024-03-26,ventas,salarios,743.29
+2024-09-14,Operaciones,Publicidad,12285.0
+2024-04-04,ti,Software,5201.52
+2024-10-04,TI,Publicidad,7674.57
+2024-07-09,ventas,Software,1496.98
+2024-04-17,ti,salarios,2485.07
+2024-07-04,Ventas,Publicidad,4240.74
+2024-08-11,Marketing,Material Oficina,8370.77
+2024-08-18,TI,Material Oficina,11778.5
+2024-03-26,Marketing,PUBLICIDAD,12506.94
+2024-01-14,Ventas,Material Oficina,10207.84
+2024-08-30,ti,Viajes,7580.55
+2024-07-04,RRHH,Hardware,13304.32
+2024-08-14,Marketing,Publicidad,128.01
+2024-07-20,ventas,Hardware,5876.34
+2024-09-29,ti,Viajes,9670.65
+2024-08-03,Operaciones,PUBLICIDAD,8453.84
+2024-09-10,Marketing,Material Oficina,441.7
+2024-07-29,ventas,Servicios Externos,11794.96
+2024-04-26,ti,Hardware,6658.97
+2024-08-15,ventas,Viajes,3614.28
+2024-04-25,Ventas,salarios,9674.22
+2024-07-16,RRHH,Hardware,1863.21
+2024-07-16,ti,Viajes,8857.76
+2024-03-01,Marketing,Material Oficina,10533.75
+2024-09-10,ventas,Formación,4551.01
+2024-09-01,TI,PUBLICIDAD,3460.57
+2024-03-09,Operaciones,Publicidad,6584.19
+2024-07-10,Operaciones,Hardware,1300.96
+2024-08-18,ti,Material Oficina,11725.17
+2024-04-09,ventas,salarios,9192.35
+2024-07-06,Ventas,Hardware,14353.56
+2024-04-15,ventas,Formación,3779.98
+2024-08-07,ventas,Servicios Externos,5630.99
+2024-04-15,Ventas,Formación,7364.81
+2024-07-02,TI,Hardware,8473.69
+2024-01-21,RRHH,Material Oficina,5275.42
+2024-05-06,ti,Material Oficina,8269.98
+2024-05-22,ti,Publicidad,6340.02
+2024-05-21,Ventas,Publicidad,3922.3
+2024-05-10,ti,PUBLICIDAD,5140.12
+2024-06-09,Marketing,Publicidad,3839.4
+2024-03-26,ti,Salarios,1810.06
+2024-01-28,Marketing,salarios,8277.7
+2024-04-07,ventas,Formación,6486.6
+2024-01-05,Marketing,Formación,10068.43
+2024-04-07,TI,Viajes,1027.87
+2024-10-20,RRHH,PUBLICIDAD,11930.45
+2024-02-18,ti,Publicidad,5020.2
+2024-08-01,ti,Servicios Externos,9928.48
+2024-04-25,RRHH,salarios,11285.87
+2024-03-06,Ventas,Servicios Externos,13647.38
+2024-04-06,Marketing,Hardware,5641.8
+2024-10-05,Ventas,Material Oficina,6671.98
+2024-09-23,RRHH,PUBLICIDAD,5414.4
+2024-10-23,RRHH,Publicidad,11988.92
+2024-02-16,ti,Servicios Externos,6769.28
+2024-09-24,Marketing,Viajes,5510.2
+2024-10-09,Marketing,Servicios Externos,9011.88
+2024-01-08,Operaciones,Publicidad,9267.94
+2024-04-12,RRHH,Servicios Externos,2424.68
+2024-04-12,RRHH,Servicios Externos,2424.68
+2024-05-15,,Salarios,5000.0
+2024-06-20,Ventas,,3000.0

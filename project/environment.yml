@@ -1,0 +1,14 @@
+name: ut1_finanzas
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas>=2.1.0
+  - numpy>=1.24.0
+  - pyarrow>=14.0.0
+  - jupyter>=1.0.0
+  - notebook>=7.0.0
+  - pip
+  - pip:
+    - -r requirements.txt
